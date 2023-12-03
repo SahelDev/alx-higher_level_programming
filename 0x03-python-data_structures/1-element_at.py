@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def element_at (my_list, idx):
+def element_at(my_list, idx):
     """This function retrieve an element from a list"""
     if idx < 0:
         result = None
