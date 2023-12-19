@@ -3,7 +3,8 @@
 
 
 class Square:
-"""this class represent a square with private attribute size"""
+    """this class represent a square with private attribute size"""
+
     def __init__(self, size):
         """Class constructor"""
         self.__size = size
