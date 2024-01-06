@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 Rectangle = __import__('1-rectangle').Rectangle
 
-my_rectangle = Rectangle(2, 4)
-print(my_rectangle.__dict__)
+my_rectangle = Rectangle()
 
-my_rectangle.width = 10
-my_rectangle.height = 3
-print(my_rectangle.__dict__)
+"""my_rectangle = Rectangle(2, 'c')
+print(my_rectangle.__dict__)"""
 
-{'_Rectangle__height': 4, '_Rectangle__width': 2}
-{'_Rectangle__height': 3, '_Rectangle__width': 10}
+my_rectangle.width = 1
+my_rectangle.height = 'a'
+print(my_rectangle.__dict__)
