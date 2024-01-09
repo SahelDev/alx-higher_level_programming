@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-""" Module define functionthat writes an object to a text file"""
+""" Module define function that writes an object to a text file"""
+
 
 import json
+
 
 def save_to_json_file(my_obj, filename):
     """function definition:\
