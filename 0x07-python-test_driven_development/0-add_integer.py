@@ -2,6 +2,7 @@
 """This module contains math function add , to add\
         integers"""
 
+
 def add_integer(a, b=98):
     """Definition of function add_integer \
             it's take two integers or float as input then\
@@ -13,4 +14,3 @@ def add_integer(a, b=98):
         raise TypeError('b must be an integer')
 
     return int(a) + int(b)
-
