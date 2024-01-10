@@ -2,7 +2,7 @@
 """Module define funct to load, add, save"""
 
 
-import sys
+from sys import argv
 
 
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
