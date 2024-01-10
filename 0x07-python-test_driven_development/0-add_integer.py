@@ -1,11 +1,15 @@
 #!/usr/bin/python
-"""This module contains math function add , to add\
-        integers"""
+"""This module contains math function add , to add
+        integers
+   The function add convert output into integer .
+   It also thrown exceptions with Non Number Value
+   Usage of the function is obvious"""
+        
 
 
 def add_integer(a, b=98):
-    """Definition of function add_integer \
-            it's take two integers or float as input then\
+    """Definition of function add_integer 
+            it's take two integers or float as input then
             output their sum"""
 
     if not isinstance(a, (int, float)):
